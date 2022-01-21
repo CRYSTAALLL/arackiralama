@@ -1,0 +1,131 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(41, 41, 41);
+}
+
+.dıs {
+    border: solid rgba(0, 0, 0, 0.39);
+    background: linear-gradient(90deg, rgba(10,10,10,1) 25%, rgba(40,40,40,1) 100%);
+    width: 630px;
+    height: 500px;
+    margin-left: 420px;
+    margin-top: 80px;
+    border-radius: 30px;
+    box-shadow: purple 0px 0px 20px 15px;
+}
+
+.bas {
+    position: absolute;
+    color: rgb(138, 71, 204);
+    border-bottom: solid rgb(138, 71, 204);
+    margin-left: 240px;
+}
+
+.ad {
+    position: absolute;
+    width: 225px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: rgb(110, 14, 206);
+    background-color: rgb(73, 73, 73);
+    margin-top: 100px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+input:-ms-input-placeholder { /* IE 10+ */
+    color: red;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgb(204, 204, 204);
+} 
+.soyad {
+    position: absolute;
+    width: 225px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: rgb(110, 14, 206);
+    background-color: rgb(73, 73, 73);
+    margin-top: 180px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.mail {
+    position: absolute;
+    width: 225px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: rgb(110, 14, 206);
+    background-color: rgb(73, 73, 73);
+    margin-top: 260px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.tel {
+    position: absolute;
+    width: 225px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: rgb(110, 14, 206);
+    background-color: rgb(73, 73, 73);
+    margin-top: 100px;
+    margin-left: 350px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.pw1 {
+    position: absolute;
+    width: 225px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: rgb(110, 14, 206);
+    background-color: rgb(73, 73, 73);
+    margin-top: 180px;
+    margin-left: 350px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.pw2 {
+    position: absolute;
+    width: 225px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: rgb(110, 14, 206);
+    background-color: rgb(73, 73, 73);
+    margin-top: 260px;
+    margin-left: 350px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.btn {
+    position: absolute;
+    width: 225px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: rgb(110, 14, 206);
+    background-color: rgb(138, 71, 204);
+    margin-top: 380px;
+    margin-left: 200px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: solid rgb(66, 66, 66);
+    transition:all 500ms;
+    color: rgb(211, 90, 241);
+    background-color: rgb(37, 37, 37);
+    box-shadow: purple 0px 0px 10px 5px;
+}

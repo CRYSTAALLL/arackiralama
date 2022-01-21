@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .hg {
+      position: absolute;
+      background-color: black;
+      margin-top: 250px;
+      margin-left: 250px;
+      color: white;
+      font-size: 60px;
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      border-radius: 40px;
+      box-shadow: purple 0px 0px 15px 10px;
+  }
+
+  .container {
+    background: #191919;
+    min-height: 100vh;
+    font-family: Montserrat, sans-serif;
+  }
+
+  nav a {
+      font-size: 25px;
+      color: #fff;
+      text-decoration: none;
+      padding: 20px;
+      text-align: center;
+      margin-left: 150px;
+  }
+
+  nav {
+      position: fixed;
+      left: 0;
+      z-index: 50;
+      display: inline;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 60px;
+      width: 100%;
+      background: rgb(60,60,60);
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      box-shadow: purple 0px 0px 15px 10px;
+  }
+
+  section {
+      position: absolute;
+      top: 0;
+      height: 100vh;
+      width: 0;
+      opacity: 0;
+      transition: all step-end .5s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  } 
+
+  section h1 {
+      color: #fff;
+      font-size: 50px;
+      text-transform: uppercase;
+      opacity: 0;
+  }
+
+  /* Styles applied on trigger */
+  section:target {
+      opacity: 1;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+  }
+
+  section:target h1 {
+      opacity: 0;
+      
+  }
+
+  #first {
+    background:#c9c9c9;
+  }
+  
+  #second {
+      background:  #d996e2;
+  }
+
+  #third {
+      background:  #75bbeb;
+  }
+
+  
+  .psolad {
+      position:absolute;
+      margin-top: 60px;
+      margin-left: 40px;
+  }
+  
+  .psolsoyad {
+      position:absolute;
+      margin-top: 90px;
+      margin-left: 40px;
+  }
+  
+  .psolnum {
+      position:absolute;
+      margin-top: 120px;
+      margin-left: 40px;
+  }
+  
+  .psolmail {
+      position:absolute;
+      margin-top: 150px;
+      margin-left: 40px;
+  }
+  
+  .psagad {
+      position:absolute;
+      margin-top: 60px;
+      margin-left: 200px;
+  }
+  
+  .psagsoyad {
+      position:absolute;
+      margin-top: 90px;
+      margin-left: 200px;
+  }
+  
+  .psagmail {
+      position:absolute;
+      margin-top: 120px;
+      margin-left: 200px;
+  }
+  
+  .psagpw {
+      position:absolute;
+      margin-top: 150px;
+      margin-left: 200px;
+  }
+  
+  
+  
+  .ad_alt {
+      position: absolute;
+      margin-top: 250px;
+      margin-left: 40px;
+  }
+  
+  .ad_alt1 {
+      position: absolute;
+      margin-top: 250px;
+      margin-left: 180px;
+  }
+  
+  .soyad_alt {
+      position: absolute;
+      margin-top: 270px;
+      margin-left: 40px;
+  }
+  
+  .soyad_alt1 {
+      position: absolute;
+      margin-top: 270px;
+      margin-left: 180px;
+  }
+  
+  .mail_alt {
+      position: absolute;
+      margin-top: 290px;
+      margin-left: 40px;
+  }
+  
+  .mail_alt1 {
+      position: absolute;
+      margin-top: 290px;
+      margin-left: 180px;
+  }
+  
+  .pw1_alt {
+      position: absolute;
+      margin-top: 290px;
+      margin-left: 40px;
+  }
+  
+  .pw1_alt1 {
+      position: absolute;
+      margin-top: 310px;
+      margin-left: 180px;
+  }
+  
+  .pw2_alt {
+      position: absolute;
+      margin-top: 330px;
+      margin-left: 40px;
+  }
+  
+  .pw2_alt1 {
+      position: absolute;
+      margin-top: 330px;
+      margin-left: 180px;
+  }
+  
+  .btn_son {
+      position: absolute;
+      margin-top: 350px;
+      width: 150px;
+      height: 35px;
+      border-radius: 10px;
+  }
+  
+  #fourth {
+      background:  #89e996 ;
+  }
+
+  @keyframes fadeIn {
+      100% { opacity:1 }
+  }
+
+  
+  /* ARAÇ KAYIT FORMU     */
+  
+  
+  h3{
+      position: relative;
+      bottom: 20px;
+      
+  }
+  
+  .bilet {
+    position: absolute;
+    margin-top:220px;
+    margin-left: 80px;
+    border-radius: 20px;
+    background-color: rgba(108, 152, 165, 0.719);
+    width: 550px;
+    height: 400px;
+    padding-top: 55px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.ad {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.soyad {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 60px;
+}
+
+.TC {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 120px;
+}
+
+.tel {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 180px;
+}
+
+.mail {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 250px;
+}
+
+.pw1 {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 250px;
+}
+
+.pw2 {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 120px;
+    margin-left: 250px;
+}
+
+.btn {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 180px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: rgb(207, 0, 0);
+    color: white;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    transition: all 0.5s ;
+}
+
+/* tablo araç  */
+
+#personel_tablo th{
+    font-size: 20px;
+}
+#personel_tablo{
+    background-color: white;
+    border:1px solid black;
+}
+#personel_tablo tr:hover{
+    background-color:rgb(209, 203, 203);
+}
+#personel_tablo th, td {
+    border: 1px solid black;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table, th, td {
+  border:1px solid black;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+.alan{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    background-color:  #ffcbdb;
+    box-shadow: 0 10px 20px 0 rgba(152, 155, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    
+ }
+ .uyari{
+     position: relative;
+     top: 200px;
+ }

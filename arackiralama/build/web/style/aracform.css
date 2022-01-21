@@ -1,0 +1,68 @@
+.first {
+    background-color: darkgray;
+}
+
+.form{
+    border: solid rgba(0, 0, 0, 0.39);
+    background: linear-gradient(90deg, rgba(10,10,10,1) 10%, rgba(40,40,40,1) 100%);
+    width: 630px;
+    height: 450px;
+    margin-top: 50px;
+    border-radius: 30px;;
+    box-shadow: purple 0px 0px 20px 15px;
+}
+
+.marka{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 85px;
+    box-shadow: purple 0px 0px 10px 5px;
+}
+.model{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 60px;
+    box-shadow: purple 0px 0px 10px 5px;
+}
+.plaka{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 70px;
+    box-shadow: purple 0px 0px 10px 5px;
+}
+.yil{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 60px;
+    box-shadow: purple 0px 0px 10px 5px;
+}
+.fiyat{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 70px;
+    box-shadow: purple 0px 0px 10px 5px;
+}
+
+.kayit {
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+    box-shadow: purple 0px 0px 10px 5px;
+}
+
+.kayit:hover {
+    box-shadow: white 0px 0px 10px 5px;
+    transition: 500ms;
+    background-color: purple;
+    color: white;
+}
